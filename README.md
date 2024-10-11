@@ -2,7 +2,9 @@
 
 ## Overview
 
-The **Smart MediBox** is an intelligent pharmaceutical storage system designed to manage medications efficiently. This system helps users keep track of their medication schedules and ensures optimal storage conditions. By integrating IoT, the Smart MediBox enables remote monitoring and control of medication environments, providing notifications and alarms when necessary.
+The **Smart MediBox** with IoT is an intelligent pharmaceutical storage system designed to efficiently manage medications. It leverages IoT technology to monitor medication schedules, storage conditions, and usage, ensuring timely reminders and proper storage.
+This project was completed as part of the **Embedded Systems and Applications (EN2853)** module during Semester 4, where it was an **individual assignment**. The system incorporates the ESP32 microcontroller to interact with various sensors and actuators, including temperature and light sensors, a buzzer, and a servo motor. It uses MQTT for communication, allowing remote control and monitoring.
+
 
 ## Features
 
@@ -29,18 +31,9 @@ The **Smart MediBox** is an intelligent pharmaceutical storage system designed t
 - **NTP Client**: Provides time synchronization for scheduled reminders.
 - **PubSubClient Library**: Handles MQTT communication.
 
-## Installation
-
 ### Hardware Setup
-
 1. Connect the DHT22 sensor to the ESP32.
 2. Connect LDR sensors to detect ambient light.
 3. Attach the servo motor for lid control.
 4. Connect a buzzer for audio alerts.
 5. (Optional) Connect an OLED display to show local information.
-
-### Software Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Smart-MediBox.git
