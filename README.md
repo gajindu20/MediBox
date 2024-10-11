@@ -1,4 +1,4 @@
-# Smart MediBox with IoT
+# ESP32 Smart MediBox with IoT
 
 ## Overview
 
